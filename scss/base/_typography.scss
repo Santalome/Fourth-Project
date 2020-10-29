@@ -1,0 +1,44 @@
+/*  BASE STYLES  */
+
+*{
+    font-family: 'Lato', sans-serif;
+    color: $color-gray;
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 1.45em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* TYPOGRAPHY  */
+
+.headline{
+    &-primary{
+        color: $color-green;
+        margin-left: 10px;
+    }
+
+    &-secondary{
+        font-weight: 300;
+        color: $color-gray;
+    }
+}
+
+.link{
+    color: $color-blue;
+    font-weight: 700;
+}
+
+.blockquote{
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-green;
+    border-radius: 5px;
+}
